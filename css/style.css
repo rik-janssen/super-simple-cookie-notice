@@ -1,0 +1,124 @@
+#bcCOO_container{
+	width: 100%;
+	height: 100vh;
+	background-color: #f1f1f1;
+	position: fixed;
+	z-index: 9999999999999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	overflow: auto;
+}
+    
+.bcCOO_message_box{
+	width: 600px;
+	background-color: #fff;
+	padding: 50px;
+	margin: 0 auto;
+	border-radius: 3px;
+	border: 1px solid #94A0AC;
+}
+
+img.bcCOO_gate_logo{
+	max-height: 80px;
+}
+
+.bcCOO_age_message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 17px;
+	line-height: 19px;
+	overflow: hidden;
+}
+.bcCOO_age_message_footer{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.bcCOO_age_form{
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+
+}
+
+.bcCOO_age_form div{
+	position: relative;
+}
+
+.bcCOO_age_form input{
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+}
+
+.bcCOO_age_form label{
+	width: 100%;
+	display: block;
+	font-size: 17px;
+	line-height: 19px;
+}
+
+.bcCOO_age_cookies{
+	margin-bottom: 10px;
+	padding: 15px;
+	text-align: left;
+	background-color: #D0E4FB;
+    color: #1f1f1f;
+	font-size: 15px;
+	line-height: 17px;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.bcCOO_age_cookies input{
+	margin-right: 10px;
+    max-width: 40px;
+    float: left;
+}
+
+.bcCOO_error_message{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+	text-align: left;
+	background-color: #0073aa;
+	color: #fff;
+	font-size: 15px;
+	line-height: 17px;
+	border-radius: 3px;	
+}
+
+#bcCOO_submit{
+	padding: 10px 15px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+@media only screen and (max-width:620px) {
+	
+	#bcCOO_container{
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		display: block;
+
+	}
+
+	.bcCOO_message_box{
+		width: 100%;
+		padding: 20px;
+	}
+}
